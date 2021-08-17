@@ -1,0 +1,25 @@
+.payment-form-main {
+  .stepper {
+    display: flex;
+    justify-content: space-between;
+    & > div {
+      text-align: center;
+    }
+    .count {
+      border: 1px solid black;
+      border-radius: 50%;
+      padding: 1px 8px 3px 9px;
+      background: #fff;
+    }
+    &::after {
+      content: '';
+      width: 69%;
+      position: absolute;
+      height: 1px;
+      background: #ccc;
+      z-index: -1;
+      margin-left: 4%;
+      top: 60px;
+    }
+  }
+}
